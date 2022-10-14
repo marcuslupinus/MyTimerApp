@@ -1,0 +1,15 @@
+﻿<Window x:Class="MyTimerApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MyTimerApp"
+        xmlns:ctrls="clr-namespace:MyTimerApp.Controls"
+        mc:Ignorable="d"
+        Title="My Timer App" d:Height="250" d:Width="400"
+        SizeToContent="WidthAndHeight"
+        ResizeMode="NoResize">
+    <Grid>
+        <ctrls:TimerControl Margin="30"/>
+    </Grid>
+</Window>
